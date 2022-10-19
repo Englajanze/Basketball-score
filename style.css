@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: blue;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+.button-score {
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-family: 'Cursed Timer ULiL';
+    
+}
+
+.scoreboard-div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.scoreboard-home , .scoreboard-guest {
+    color: red;
+    background-color: black;
+    width: 70px;
+    font-family: 'Cursed Timer ULiL';
+    
+}
+
+#newgame-el {
+    width: 200px;
+    height: 100px;
+    
+    
+}
+
+.newgame-div {
+    display: flex;
+    justify-content: center;
+}
+
